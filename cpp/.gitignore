@@ -3,6 +3,8 @@
 *.opensdf
 *.user
 *.ipch
+*.o
+a.out
 Release
 Debug
 obj
