@@ -11,6 +11,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "beautifulStrings", "beautif
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "oddNumbers", "oddNumbers\oddNumbers.vcxproj", "{6E6A0988-E160-473E-8FC2-89BC728D54D9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "multiplicationTables", "multiplicationTables\multiplicationTables.vcxproj", "{5B73EB92-20EA-456B-8225-FD98E92E80C4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "piDigits", "piDigits\piDigits.vcxproj", "{D1FB1C98-1368-4C56-9680-CA9F44893DF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +37,14 @@ Global
 		{6E6A0988-E160-473E-8FC2-89BC728D54D9}.Debug|Win32.Build.0 = Debug|Win32
 		{6E6A0988-E160-473E-8FC2-89BC728D54D9}.Release|Win32.ActiveCfg = Release|Win32
 		{6E6A0988-E160-473E-8FC2-89BC728D54D9}.Release|Win32.Build.0 = Release|Win32
+		{5B73EB92-20EA-456B-8225-FD98E92E80C4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5B73EB92-20EA-456B-8225-FD98E92E80C4}.Debug|Win32.Build.0 = Debug|Win32
+		{5B73EB92-20EA-456B-8225-FD98E92E80C4}.Release|Win32.ActiveCfg = Release|Win32
+		{5B73EB92-20EA-456B-8225-FD98E92E80C4}.Release|Win32.Build.0 = Release|Win32
+		{D1FB1C98-1368-4C56-9680-CA9F44893DF2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D1FB1C98-1368-4C56-9680-CA9F44893DF2}.Debug|Win32.Build.0 = Debug|Win32
+		{D1FB1C98-1368-4C56-9680-CA9F44893DF2}.Release|Win32.ActiveCfg = Release|Win32
+		{D1FB1C98-1368-4C56-9680-CA9F44893DF2}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
