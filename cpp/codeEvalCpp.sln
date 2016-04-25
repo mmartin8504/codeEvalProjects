@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "details", "details\details\details.vcxproj", "{250BC26C-DE91-4420-9F32-97ABBE2A4C36}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "multiplicationTables", "multiplicationTables\multiplicationTables.vcxproj", "{5B73EB92-20EA-456B-8225-FD98E92E80C4}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "piDigits", "piDigits\piDigits.vcxproj", "{D1FB1C98-1368-4C56-9680-CA9F44893DF2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "peakTraffic", "peakTraffic\peakTraffic.vcxproj", "{C5A5B59C-39C7-41CB-AEB8-DE8AD1A85445}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,14 @@ Global
 		{D1FB1C98-1368-4C56-9680-CA9F44893DF2}.Debug|Win32.Build.0 = Debug|Win32
 		{D1FB1C98-1368-4C56-9680-CA9F44893DF2}.Release|Win32.ActiveCfg = Release|Win32
 		{D1FB1C98-1368-4C56-9680-CA9F44893DF2}.Release|Win32.Build.0 = Release|Win32
+		{CC22AAD6-E686-497A-87C4-21C8ACC78C7D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CC22AAD6-E686-497A-87C4-21C8ACC78C7D}.Debug|Win32.Build.0 = Debug|Win32
+		{CC22AAD6-E686-497A-87C4-21C8ACC78C7D}.Release|Win32.ActiveCfg = Release|Win32
+		{CC22AAD6-E686-497A-87C4-21C8ACC78C7D}.Release|Win32.Build.0 = Release|Win32
+		{C5A5B59C-39C7-41CB-AEB8-DE8AD1A85445}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C5A5B59C-39C7-41CB-AEB8-DE8AD1A85445}.Debug|Win32.Build.0 = Debug|Win32
+		{C5A5B59C-39C7-41CB-AEB8-DE8AD1A85445}.Release|Win32.ActiveCfg = Release|Win32
+		{C5A5B59C-39C7-41CB-AEB8-DE8AD1A85445}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
