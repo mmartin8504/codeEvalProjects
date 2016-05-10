@@ -1,0 +1,27 @@
+To be a cluster, each user must have an incoming and outgoing communication
+with each other user in the cluster (ie. every permutation of users
+communicated with each other).
+
+This should just mean that I need to make a graph of all users' communications
+and then find all the subgraphs that form clusters.
+
+Such graphs are called permutation graphs.
+
+A naive approach may be just to do some sort of DFS/BFS from each node to find
+all the other nodes are connected, but that seems like it will be slow AF.
+
+Theoretically you can test if a graph is a permutation graph in linear time, but
+I would have to test every sub-graph, which would probably mean n! number of linear
+tests.
+
+It would probably be adventageous for my graph to be sorted since the results need
+to be sorted. I should also be able to elimiate some amount of testing based on
+the fact that things are sorted.
+
+After reading about cliques and complete graphs/digraphs, they have special properties
+that can be tested for. A graph is a complete digraph if it has an edge going to/from
+each node to every other node, which is exactly the kind of graphs I'm looking for.
+That means that each vertex should have 2(n-1) edges and the whole graph will have
+n(n-1) edges. Using these properties, I should be able to tell what the max number of
+nodes there can be in a graph with a given node in it simply based on the number of edges
+it has. Still not sure how I'm going to use that to find ALL the cliques of size N>=3.
